@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+}
+html {
+    scrollbar-width:thin; /* Width of the scrollbar */
+    scrollbar-color: rgb(230, 173, 98) #f1f1f1; /* Thumb color and track color */
+    scroll-behavior: smooth;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+}
+.container img {
+  width: 60px;
+}
+.p-color{color: rgb(100, 97, 97);}
+nav {
+  background-color: rgb(33, 37, 41) !important;
+}
+.nav-item .first-nav {
+  color: rgb(188, 140, 76);
+  /* border-color: rgb(188, 140, 76); */
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.first-nav span {
+  color: rgb(173, 181, 189) !important;
+}
+.navbar {
+  display: flex;
+  list-style: none;    align-items: center;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
+.nav-itemc {
+  background-color: rgb(230, 173, 98);
+  display: flex;
+  justify-content: center;
+  border-radius: 0.2rem;
+  margin: auto;
+  font-weight: bold;
+}
+
+.nav-itemc a {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.2rem;
+}
+.nav-item .nav-link:hover {
+  color: rgb(230, 173, 98);
+}
+.nav-item .nav-link:active {
+  color: rgb(230, 173, 98);
+}
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('imgs/header.jpg') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+        background-color: #0005;
+            padding-bottom: 5%;
+}
+.header img{
+    width: 15%;
+    margin-top: 15%;
+}
+.header h1{
+    color: white;
+    font-size: larger;
+}
+.header .big{
+        font-size: 70px;
+    color: white;
+    font-weight: 900;
+}
+.header a{text-decoration: none;
+    color: white;
+
+    height: 40px;
+    display: flex;
+    align-items: center;}
+    .header div {display: flex;
+        justify-content: center;
+width: 100px  ;
+background-color: rgb(188, 140, 76);    margin: 0 auto;
+margin-bottom: 50px;
+
+ border-radius: 5px;
+}
+/* ///////////////////contact */
+.contact-inp{
+       display: block;
+    width: 100%;
+    height: calc(2px + 2.05rem);
+    margin-bottom: 10px;
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 0.25rem;
+    
+}
+.contact-inp:focus{  border: 1px solid rgb(230, 170, 98);
+ color: #495057;
+  background-color: #fff;
+  border-color: #dfc8a9;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(188, 140, 76, 0.25);}
+
+  /* servic///////////////////////////// */
+  #service{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('imgs/style-4.png');
+    margin-bottom: 100px;
+  }
+  .service-cont{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 20px;
+  }
+  .serv-heading{
+    text-align: center;
+  }
+   .serv-heading p{
+    color: gainsboro;
+    /* padding-top: 50px; */
+  } .service-cont .sub{
+    display: flex;
+    width: 40%;
+  }
+  .service-cont div img{width: 15%;
+  border-radius: 5px;}
+  .sub span{position: relative;
+    left: 150px;
+    color: rgb(230, 173, 98);}
+    .sub-p{color: #686d72;}
+  /* ////////////////////team */
+.team{
+  padding: 0  10% 10% 10%;
+}
+  .team img
+  { 
+    border-radius: 50%;
+    width: 150px;
+  }
+.team div{
+  /* width: 30%; */
+  text-align: center;
+}
+  .team a{color: rgb(230, 170, 98);}
+
+ .team p{color: rgb(138, 136, 136)}
+ .links{    display: flex;
+    justify-content: center;
+    gap: 10px;}
+    .main-team h1{
+       color: #343a40;
+    }
+    /* menu */
+    .main-menu{
+          background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('imgs/section.jpg') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;position: relative;
+    }
+    .sub-menu{
+     background-color: rgb(231, 226, 226);margin: 10%;    position: relative;
+    bottom: 100px;padding: 5%;
+    }
+    .sub-menu span{color: rgb(230, 173, 98);position: relative;left: 150px;}
+    /* .sub-menu div{    gap: 10%;
+    display: flex;
+    margin-left: 15%;} */
+    /* testminols */
+    .testminols{
+         padding: 0 10%;
+    gap: 50px;
+    margin-bottom: 10%;
+  }
+
+    .test{ border: 1px solid gainsboro;
+    padding: 2%;}
+    .sub-test, .testminols{display: flex;}
+    .sub-test img{border-radius: 50%;
+    width: 80px;
+  height: 80px;}
+  footer{
+    background-color: rgb(33, 37, 41) !important;
+    color: white;
+  }
+footer .links a{
+  color: #686d72;
+}
+footer .container1 a{color: #686d72;
+font-weight: bold;}
+footer img{width: 100px;}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5%;
+}
